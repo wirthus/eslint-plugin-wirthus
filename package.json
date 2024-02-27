@@ -1,0 +1,74 @@
+{
+  "name": "eslint-plugin-wirthus",
+  "version": "0.0.0",
+  "description": "Eslint configs and rules for Wirthus by Wirthus",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslintconfig",
+    "eslint-config",
+    "react",
+    "react-native",
+    "typescript"
+  ],
+  "repository": "git+https://github.com/wirthus/eslint-plugin-wirthus.git",
+  "homepage": "https://github.com/wirthus/eslint-plugin-wirthus#readme",
+  "author": "wirthus",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "release": "release-it",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@react-native/eslint-config": "~0.73.2",
+    "@react-native/eslint-plugin": "~0.73.1",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
+    "eslint-doc-generator": "^1.6.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-eslint-plugin": "^5.4.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jsdoc": "^48.2.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.1.0",
+    "release-it": "^17.1.1"
+  },
+  "peerDependencies": {
+    "@react-native/eslint-config": "~0.73.2",
+    "@react-native/eslint-plugin": "~0.73.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "eslint-doc-generator": "^1.6.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-eslint-plugin": "^5.3.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-jsdoc": "^48.0.6",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@8.15.4"
+}
