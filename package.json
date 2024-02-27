@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-wirthus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Eslint configs and rules for Wirthus by Wirthus",
   "keywords": [
     "eslint",
