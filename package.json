@@ -12,7 +12,10 @@
     "react-native",
     "typescript"
   ],
-  "repository": "git+https://github.com/wirthus/eslint-plugin-wirthus.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirthus/eslint-plugin-wirthus.git"
+  },
   "homepage": "https://github.com/wirthus/eslint-plugin-wirthus#readme",
   "author": "wirthus",
   "license": "MIT",
